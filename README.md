@@ -53,7 +53,7 @@ go run println-demo.go
 
 ## Repository Structure
 
-- [println/](println/) - Demonstrates the `fmt.Println()` function
+- [println/](println/) - Demonstrates the `fmt.Println()` function ([README](println/README.md))
 
 ## Resources
 
