@@ -54,6 +54,8 @@ go run println-demo.go
 ## Repository Structure
 
 - [println/](println/) - Demonstrates the `fmt.Println()` function ([README](println/README.md))
+- [import-multiple-packages/](import-multiple-packages/) - Demonstrates importing and using multiple packages ([README](import-multiple-packages/README.md))
+- [escape-characters/](escape-characters/) - Demonstrates escape characters and raw strings ([README](escape-characters/README.md))
 
 ## Resources
 

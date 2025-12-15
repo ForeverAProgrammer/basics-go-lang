@@ -13,6 +13,8 @@
 
 # Compiled Go binaries
 println-demo
+import-multi-package-demo
+escape-characters-demo
 
 # OS-specific files
 .DS_Store
