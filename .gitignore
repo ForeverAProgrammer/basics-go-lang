@@ -33,6 +33,7 @@ Thumbs.db
 *~
 .vscode/
 .idea/
+*.local.json
 
 # Go workspace file
 go.work
