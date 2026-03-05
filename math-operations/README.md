@@ -18,11 +18,13 @@ The program shows how to use:
 ## How to run
 
 ### Run directly (without creating an executable):
+
 ```bash
 go run math-operations-demo.go
 ```
 
 ### Compile and run:
+
 ```bash
 go build math-operations-demo.go
 ./math-operations-demo

@@ -12,7 +12,7 @@ func main() {
 	// It returns the UTF-8 character for that Unicode code point.
 	// Use strconv.Itoa() or fmt.Sprintf() to get the numeric string.
 	n := 65
-	gotcha := string(n)
+	gotcha := string(rune(n)) //nolint:govet // intentional: demonstrating the gotcha
 	correct := strconv.Itoa(n)
 	sprintf := fmt.Sprintf("%d", n)
 

@@ -18,11 +18,13 @@ The program shows how to use:
 ## How to run
 
 ### Run directly (without creating an executable):
+
 ```bash
 go run comparison-operators-demo.go
 ```
 
 ### Compile and run:
+
 ```bash
 go build comparison-operators-demo.go
 ./comparison-operators-demo

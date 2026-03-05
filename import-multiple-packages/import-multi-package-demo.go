@@ -19,5 +19,5 @@ func main() {
 
 	// Changes the first letter of the string to uppercase (proper case)
 	fmt.Println("Proper case of 'hello go' is:")
-	fmt.Println(strings.Title("hello go")) // Returns "Hello Go"
+	fmt.Println(strings.Title("hello go")) //nolint:staticcheck // intentional: demonstrating strings.Title
 }

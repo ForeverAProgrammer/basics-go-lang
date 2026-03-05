@@ -17,11 +17,13 @@ The program shows how to:
 ## How to run
 
 ### Run directly (without creating an executable):
+
 ```bash
 go run escape-characters-demo.go
 ```
 
 ### Compile and run:
+
 ```bash
 go build escape-characters-demo.go
 ./escape-characters-demo
