@@ -37,3 +37,6 @@ Thumbs.db
 
 # Go workspace file
 go.work
+
+# Generated demo output
+stdlib/log/demo.log
