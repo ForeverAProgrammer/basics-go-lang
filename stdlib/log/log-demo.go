@@ -64,6 +64,13 @@ func main() {
 	multiLogger := log.New(multi, "MULTI ", log.LstdFlags)
 	multiLogger.Println("This line goes to both demo.log and stderr")
 
+	// --- log.SetFlags(0): suppress all prefix fields ---
+	// Passing 0 removes the timestamp and file info entirely, leaving just the
+	// message. Useful for CLIs or tests where timestamps are noise.
+	log.SetFlags(0)
+	log.SetPrefix("")
+	log.Println("No timestamp or file info")
+
 	// log.Fatal and log.Panic also exist:
 	//
 	//   log.Fatal("fatal error")   // logs the message then os.Exit(1)

@@ -1,3 +1,6 @@
 FILE  2026/05/20 12:01:06 This line is written to demo.log
 FILE  2026/05/20 12:01:06 Formatted: value=99
 MULTI 2026/05/20 12:01:06 This line goes to both demo.log and stderr
+FILE  2026/05/20 12:09:54 This line is written to demo.log
+FILE  2026/05/20 12:09:54 Formatted: value=99
+MULTI 2026/05/20 12:09:54 This line goes to both demo.log and stderr
